@@ -48,13 +48,10 @@ void InitGpio(void)
    GpioCtrlRegs.GPBPUD.all = 0xFFFF;    // Pullup's disabled GPIO32-GPIO34
    GpioCtrlRegs.GPCPUD.all = 0xFFFF;     // Pullup's disabled GPIO64-GPIO79
 
-   //GOIO FOR 12v CTRL
-   GpioCtrlRegs.GPBDIR.bit.GPIO57 = 1 ; //output
-
    //===============GPIO for Test============
 //   GpioCtrlRegs.GPADIR.bit.GPIO5 = 1 ; //output
 //   GpioCtrlRegs.GPBDIR.bit.GPIO62 = 1 ; //output
-   GpioCtrlRegs.GPBDIR.bit.GPIO63 = 1 ; //output
+//   GpioCtrlRegs.GPBDIR.bit.GPIO63 = 1 ; //output
 //   GpioCtrlRegs.GPADIR.bit.GPIO6 = 1 ;	//output
 
    EDIS;

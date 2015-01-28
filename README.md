@@ -19,6 +19,14 @@ SS12345678EE
 
 When the MCU receives a frame it will echo back what it receives.
 
+## How to use with TI's 28335 control card and dock station
+
+* install drivers, there will be a com port
+* Switch down SW1 on the control card. SW1 is put in up position by default, it must be put down.
+* connect J9 with a jumper.
+
+Now the com port of FT2232D is connected to SCIA of your MCU's GPIO 28 and 29.
+
 ## How to change parameters
 
 * Don't forget to chose the building configurations as "flash" not "Debug"
