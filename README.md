@@ -120,3 +120,7 @@ $ tree
 7 directories, 69 files
 
 ```
+
+## update info
+
+* @20150203 project settings are updated
